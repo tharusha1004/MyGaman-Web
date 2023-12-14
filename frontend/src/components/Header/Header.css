@@ -1,0 +1,32 @@
+.font {
+    color: #03ac13;
+    font-family: "SF Pro Display-Medium", Helvetica;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.font2 {
+    color: #000000;
+    font-family: "SF Pro Display-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.earth {
+    width: 20px;
+    height: 20px;
+}
+
+.ullist {
+    width: 600px;
+}
+
+.space {
+    margin-left: 40px;
+}
+
+.space2 {
+    margin-left: 20px;
+}
