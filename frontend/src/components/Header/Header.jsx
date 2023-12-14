@@ -36,11 +36,11 @@ const Header = () => {
                             English
                         </button>
                         <form class="d-flex " role="search">
-                            <button class="btn btn-outline-success" type="submit">
-                                Register
+                            <button type="button" class="btn btn-success space2">
+                                <Link to="/register" className="nav-link">Register</Link>
                             </button>
                             <button type="button" class="btn btn-success space2">
-                                Sign in
+                                <Link to="/login" className="nav-link">Sign in</Link>
                             </button>
                         </form>
                     </div>

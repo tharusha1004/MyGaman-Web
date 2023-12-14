@@ -1,16 +1,22 @@
+body {
+    padding: 100;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 .font {
-    color: #03ac13;
+    color: #03AC13;
     font-family: "SF Pro Display-Medium", Helvetica;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 600;
     text-decoration: none;
 }
 
 .font2 {
-    color: #000000;
+    color: black;
     font-family: "SF Pro Display-Regular", Helvetica;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 500;
     text-decoration: none;
 }
 
@@ -29,4 +35,27 @@
 
 .space2 {
     margin-left: 20px;
+}
+
+/* Add the following styles for the underline animation */
+.nav-link {
+    position: relative;
+    text-decoration: none;
+}
+
+.nav-link::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background-color: #03AC13; /* Change this color to match your design */
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-link:hover::before {
+    visibility: visible;
+    width: 100%;
 }
