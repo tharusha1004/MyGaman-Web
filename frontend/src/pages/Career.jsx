@@ -2,7 +2,9 @@ import React from 'react'
 
 const Career = () => {
     return (
-        <div>Career</div>
+        <div className="career-container">
+            
+        </div>
     )
 }
 
