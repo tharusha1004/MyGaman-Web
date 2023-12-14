@@ -1,0 +1,320 @@
+.box {
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+.box .footer-section {
+    height: 100vh;
+    left: 0;
+    position: relative;
+    top: 0;
+    width: 100%;
+    max-width: 100%;
+}
+
+.box .your-trust-travel {
+    color: #000000;
+    font-family: "SF Pro Display-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 100;
+    left: 100px;
+    position: absolute;
+    top: 160px;
+}
+
+.box .text-wrapper {
+    color: black;
+    font-family: "SF Pro Display-Medium", Helvetica;
+    font-size: 14px;
+    font-weight: 500;
+    left: 175px;
+    position: absolute;
+    top: 260px;
+}
+
+.box .div {
+    color: black;
+    font-family: "SF Pro Display-Medium", Helvetica;
+    font-size: 14px;
+    font-weight: 500;
+    left: 175px;
+    position: absolute;
+    top: 300px;
+}
+
+.box .text-wrapper-2 {
+    color: black;
+    font-family: "SF Pro Display-Medium", Helvetica;
+    font-size: 14px;
+    font-weight: 500;
+    left: 175px;
+    position: absolute;
+    top: 340px;
+}
+
+.box .text-logo {
+    color: #03ac13;
+    font-family: "SF Pro Display-Medium", Helvetica;
+    font-size: 18px;
+    font-weight: bold;
+    left: 100px;
+    position: absolute;
+    top: 130px;
+}
+
+.box .capture-removebg {
+    height: 86px;
+    left: 100px;
+    object-fit: cover;
+    position: absolute;
+    top: 30px;
+    width: 92px;
+}
+
+.box .overlap-group {
+    background-color: #234f1e;
+    height: 40px;
+    left: -73;
+    position: absolute;
+    top: 400px;
+    width: 100%;
+}
+
+.box .p {
+    color: #ffffff;
+    font-family: "SF Pro Display-Bold", Helvetica;
+    font-size: 14px;
+    font-weight: bold;
+    left: 550px;
+    line-height: 250%;
+    position: absolute;
+    align-items: center;
+}
+
+.box .designed-developed {
+    color: #ffffff;
+    font-family: "SF Pro Display-Bold", Helvetica;
+    font-size: 14px;
+    left: 1225px;
+    line-height: 250%;
+    position: absolute;
+    text-align: center;
+}
+
+.box .location {
+    height: 25px;
+    left: 128px;
+    position: absolute;
+    top: 260px;
+    width: 25px;
+}
+
+.box .phone {
+    height: 25px;
+    left: 128px;
+    position: absolute;
+    top: 300px;
+    width: 25px;
+}
+
+.box .email {
+    height: 30px;
+    left: 128px;
+    position: absolute;
+    top: 340px;
+    width: 30px;
+}
+
+.box .instagram {
+    height: 30px;
+    width: 30px;
+    left: 1330px;
+    position: absolute;
+    top: 335px;
+}
+
+.box .twitterX {
+    height: 30px;
+    width: 30px;
+    left: 1400px;
+    position: absolute;
+    top: 335px;
+}
+
+.box .linked-in {
+    height: 30px;
+    width: 30px;
+    left: 1470px;
+    position: absolute;
+    top: 335px;
+}
+
+.box .flexcontainer {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    left: 450px;
+    position: absolute;
+    top: 70px;
+}
+
+.box .text {
+    align-self: stretch;
+    color: #4f4f4f;
+    font-family: "SF Pro Display-Regular", Helvetica;
+    font-size: 14px;
+    text-align: left;
+    font-weight: 400;
+    letter-spacing: 0.28px;
+    line-height: normal;
+    position: relative;
+}
+
+.box .span {
+    color: #4f4f4f;
+    font-family: "SF Pro Display-Regular", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.28px;
+}
+
+.box .text-wrapper-3 {
+    color: #000000;
+    font-family: "SF Pro Display-Medium", Helvetica;
+    font-size: 18px;
+    font-weight: 500;
+    left: 450px;
+    position: absolute;
+    top: 19px;
+}
+
+.box .flexcontainer-2 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    left: 660px;
+    position: absolute;
+    top: 70px;
+}
+
+.box .span-wrapper {
+    align-self: stretch;
+    color: transparent;
+    font-family: "SF Pro Display-Regular", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.28px;
+    line-height: normal;
+    position: relative;
+}
+
+.box .text-wrapper-4 {
+    color: #4f4f4f;
+}
+
+.box .text-wrapper-5 {
+    color: #03ac13;
+}
+
+.box .text-wrapper-6 {
+    color: #000000;
+    font-family: "SF Pro Display-Medium", Helvetica;
+    font-size: 18px;
+    font-weight: 500;
+    left: 660px;
+    position: absolute;
+    top: 19px;
+}
+
+.box .flexcontainer-3 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    left: 900px;
+    position: absolute;
+    top: 70px;
+}
+
+.box .text-wrapper-7 {
+    color: #000000;
+    font-family: "SF Pro Display-Medium", Helvetica;
+    font-size: 18px;
+    font-weight: 500;
+    left: 900px;
+    position: absolute;
+    top: 19px;
+}
+
+.box .flexcontainer-4 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    left: 1200px;
+    position: absolute;
+    top: 70px;
+}
+
+.box .text-wrapper-8 {
+    color: #000000;
+    font-family: "SF Pro Display-Medium", Helvetica;
+    font-size: 18px;
+    font-weight: 500;
+    left: 1200px;
+    position: absolute;
+    top: 19px;
+}
+
+.box .text-wrapper-9 {
+    color: #000000;
+    font-family: "SF Pro Display-Medium", Helvetica;
+    font-size: 14px;
+    font-weight: bold;
+    left: 1200px;
+    position: absolute;
+    top: 340px;
+}
+
+
+
+
+
+
+/* Add these styles to your existing CSS file or create a new one */
+
+/* .flexcontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  } */
+
+.text {
+    color: #4f4f4f;
+    font-family: "SF Pro Display-Regular", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.28px;
+    line-height: 19.6px;
+    text-align: left;
+    margin-bottom: 10px;
+    /* Adjust as needed */
+}
+
+.text a {
+    text-decoration: none;
+    color: #4f4f4f;
+}
+
+/* Hover effect for links */
+.text a:hover {
+    color: #03ac13;
+    /* text-decoration: underline; */
+}
