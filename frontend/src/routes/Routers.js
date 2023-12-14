@@ -9,6 +9,7 @@ import Discover from '../pages/Discover';
 import Activities from '../pages/Activities';
 import About from '../pages/About';
 import Contact from '../pages/Contact';
+import Career from '../pages/Career';
 
 // import TourDetails from '../pages/TourDetails';
 // import SearchResults from '../pages/SearchResults';
@@ -24,6 +25,7 @@ const Routers = () => {
             <Route path='/activities' element={<Activities/>}/>
             <Route path='/about' element={<About/>}/>
             <Route path='/contact' element={<Contact/>}/>
+            <Route path='/careers' element={<Career/>}/>
 
             {/* <Route path='/tour/id:' element={<TourDetails/>}/>
             <Route path='/tours/search' element={<SearchResults/>}/> */}
