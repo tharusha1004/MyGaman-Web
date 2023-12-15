@@ -1,0 +1,15 @@
+/* In your style sheet or within a <style> tag */
+
+.career-container{
+    text-align: center;
+}
+
+.image-style {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
