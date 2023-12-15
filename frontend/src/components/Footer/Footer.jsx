@@ -44,7 +44,7 @@ const Footer = () => {
 
                     </p>
                     <p className="text">
-                        <a href="/careers">Careers</a>
+                        <a href="/career">Careers</a>
                         <br />
 
                     </p>
