@@ -1,0 +1,20 @@
+.advertising-container {
+    text-align: center;
+}
+
+.image-style {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+/* styles.css or your stylesheet */
+.custom-heading {
+    color: #03AC13;
+    text-align: center;
+    font-size: 30px;
+}
