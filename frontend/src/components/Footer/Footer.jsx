@@ -97,7 +97,11 @@ const Footer = () => {
                         </span>
                     </p>
                     <p className="span-wrapper">
-                        <span className="text-wrapper-5">See more</span>
+                        <p className="text">
+                            <a href="/tourism-map">See More</a>
+                            <br />
+                        </p>
+                        {/* <span className="text-wrapper-5">See more</span> */}
                     </p>
                 </div>
                 <div className="text-wrapper-6">Explore</div>
