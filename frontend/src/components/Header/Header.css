@@ -50,7 +50,7 @@ body {
     height: 2px;
     bottom: -2px;
     left: 0;
-    background-color: #03AC13; /* Change this color to match your design */
+    background-color: #198754; /* Change this color to match your design */
     visibility: hidden;
     transition: all 0.3s ease-in-out;
 }
