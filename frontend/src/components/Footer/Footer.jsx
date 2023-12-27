@@ -105,7 +105,7 @@ const Footer = () => {
                     </p>
                 </div>
                 <div className="text-wrapper-6">Explore</div>
-                
+
                 <div className="text-wrapper-7">Terms and Policies</div>
                 <div className="flexcontainer-3">
                     <p className="text">
@@ -117,31 +117,27 @@ const Footer = () => {
                         <br />
                     </p>
                 </div>
-                
+
+                <div className="text-wrapper-8">Help</div>
                 <div className="flexcontainer-4">
                     <p className="text">
-                        <span className="span">
-                            Support
-                            <br />
-                        </span>
+                        <a href="/support">Support</a>
+                        <br />
                     </p>
                     <p className="text">
-                        <span className="span">
-                            Cancel booking
-                            <br />
-                        </span>
+                        <a href="/cancel-booking">Cancel Booking</a>
+                        <br />
                     </p>
                     <p className="text">
-                        <span className="span">
-                            Use Coupon
-                            <br />
-                        </span>
+                        <a href="/coupons">Use Coupons</a>
+                        <br />
                     </p>
                     <p className="text">
-                        <span className="span">Travel Documents</span>
+                        <a href="/documents">Travel Documents</a>
+                        <br />
                     </p>
                 </div>
-                <div className="text-wrapper-8">Help</div>
+
                 <div className="text-wrapper-9">Follow us on</div>
             </div>
         </div>
