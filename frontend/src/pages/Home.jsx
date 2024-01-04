@@ -1,13 +1,11 @@
 import React from 'react'
 import '../styles/Home.css'
-
-import bg_img from '../assets/images/pages_images/Construction_Bg.jpg'
+import InfoMessage from '../components/Home/Info_Message/InfoMessage'
 
 const Home = () => {
     return (
-        <div className="home-container">
-            <h1 className='custom-heading'>Welcome to Home Page</h1>
-            <img className='image-style' src={bg_img} alt='' />
+        <div>
+            <InfoMessage />
         </div>
     )
 }
