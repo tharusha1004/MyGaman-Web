@@ -1,4 +1,5 @@
 import React from 'react'
+import "bootstrap/dist/css/bootstrap.min.css";
 import './InfoMessage.css';
 import Info from "../../../assets/images/Home_images/Info.png";
 
@@ -6,7 +7,7 @@ import CovidDoc from "../../../assets/docs/Covid-19 Restrictions.pdf"
 
 const InfoMessage = () => {
     return (
-        <div className="p-5 ">
+        <section className="p-5 ">
             <div className="row ">
                 <div className="col-12 boder01 p-3">
                     <img src={Info} alt="#" />
@@ -17,7 +18,7 @@ const InfoMessage = () => {
                     </span>
                 </div>
             </div>
-        </div>
+        </section>
     );
 }
 

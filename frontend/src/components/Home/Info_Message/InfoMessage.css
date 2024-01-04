@@ -1,16 +1,17 @@
 .boder01 {
   background-color: #03ac1333;
   border-radius: 8px;
+  margin-left: 10px;
+  height: 60px;
 }
 
 .text01 {
   color: #333333;
   font-family: "SF Pro Display-Regular", Helvetica;
-  /* font-size: 15.5px; */
-  font-size: clamp(8px, 2vw, 15.5px);
+  font-size: 18px;
   font-weight: 400;
   letter-spacing: 0.32px;
-  line-height: 22.4px;
+  line-height: 12px;
 }
 
 .text02 {
