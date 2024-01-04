@@ -1,0 +1,21 @@
+.boder01 {
+  background-color: #03ac1333;
+  border-radius: 8px;
+}
+
+.text01 {
+  color: #333333;
+  font-family: "SF Pro Display-Regular", Helvetica;
+  /* font-size: 15.5px; */
+  font-size: clamp(8px, 2vw, 15.5px);
+  font-weight: 400;
+  letter-spacing: 0.32px;
+  line-height: 22.4px;
+}
+
+.text02 {
+  color: #234f1e;
+  font-family: "SF Pro Display-Bold", Helvetica;
+  font-weight: 700;
+  text-decoration: none;
+}
