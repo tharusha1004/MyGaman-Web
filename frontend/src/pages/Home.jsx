@@ -1,13 +1,16 @@
 import React from 'react'
 import '../styles/Home.css'
+import InfoMessage from '../components/Home/Info_Message/InfoMessage'
+import MainSection from '../components/Home/Main_Section/MainSection'
 
-import bg_img from '../assets/images/pages_images/Construction_Bg.jpg'
+import SearchBar from '../shared/SearchBar'
 
 const Home = () => {
     return (
-        <div className="home-container">
-            <h1 className='custom-heading'>Welcome to Home Page</h1>
-            <img className='image-style' src={bg_img} alt='' />
+        <div>
+            <InfoMessage />
+            <MainSection/>
+            <SearchBar/>
         </div>
     )
 }

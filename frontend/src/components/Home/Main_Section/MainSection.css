@@ -1,0 +1,28 @@
+.Image01 {
+    background-image: url(../../../assets/images/Home_images/MainImage.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    place-items: center;
+    height: 500px;
+    width: 1500px;
+    margin-top: -80px;
+    border-radius: 20px;
+}
+
+.text03 {
+    color: #ffffff;
+    font-family: "SF Pro Display-Bold", Helvetica;
+    font-size: clamp(16px, 2vw, 32px);
+    font-weight: 700;
+    margin-top: 240px;
+}
+
+.text04 {
+    align-self: stretch;
+    color: #ffffff;
+    font-family: "SF Pro Display-Regular", Helvetica;
+    font-size: clamp(10px, 2vw, 20px);
+    font-weight: 400;
+}
+
