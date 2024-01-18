@@ -1,0 +1,158 @@
+
+.container{
+    position: relative;
+}
+
+
+.arrow{
+    margin-left: 53%;
+    position: absolute;
+    
+}
+
+/* destination section */
+
+.Destination-section{
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-right: 120px;
+}
+
+.Description-container{
+    position: relative;
+    column-gap: 50px;
+    margin-top: 100px;
+
+}
+
+.main-text{
+    position: relative;
+    padding-right: 10%;
+}
+
+.counting{
+    position: relative;
+    text-align: center;
+    margin-top: 30px;
+    padding-right: 160px;
+    
+}
+
+.counting h2{
+    position: relative;
+    color: rgb(58, 128, 33);
+}
+
+.explore-btn{
+    position: relative;
+    text-align: center;
+    margin-right: 200px;
+    margin-top: 30px;
+}
+
+.image-container{
+    position: relative;
+}
+.image-container img{
+    position: relative;
+    width:160%;
+    height:220%;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+
+
+
+/* accomadation section */
+
+.Accomadation-section{
+    position: relative;
+    width: 105%;
+}
+
+.search-container{
+    position: relative;
+    background-color: #fff;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border-style:ridge;
+    border-color: #fff;
+
+}
+
+.location-select{
+    position: relative;
+    background-color: rgb(170, 233, 166);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 205%;
+    font-size: 14px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    box-sizing: border-box;
+    outline: none;
+    cursor: pointer;
+}
+
+.location-select:after {
+    content: '\25BC'; /* Unicode character for a downward arrow */
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none; /* Make sure the arrow doesn't interfere with the click on the select */
+  }
+
+.place{
+    position: relative;
+    background-color: rgb(232, 239, 231);
+    border: none;
+    border-radius: 5px;
+    padding: 6px;
+    padding-left: 20px;
+    width: 100%;
+    font-size: 14px;
+
+}
+
+.place label{
+    position: relative;
+    margin-right: 20px;
+    margin-left: 30px;
+}
+
+
+
+.find-btn{
+    position: relative;
+    text-align: center;
+    width: 100px;
+}
+
+.img-container img{
+    position: relative;
+    width: 105%;
+    height: 120%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+
+}
+
+.img-container h6{
+    position: relative;
+    font-size: 15px;
+}
+
+.learnmore-btn{
+    position: relative;
+    margin-top: 20%;
+    text-align: center;
+}
+
