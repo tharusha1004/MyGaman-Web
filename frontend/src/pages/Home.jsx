@@ -6,6 +6,7 @@ import MainSection from '../components/Home/Main_Section/MainSection'
 import SearchBar from '../shared/SearchBar'
 import DestinationSection from '../components/Home/Destination_Section/DestinationSection'
 import ActivityBooking from '../components/Home/Activity_Booking/ActivityBooking'
+import ServicesSection from '../components/Home/Services_Section/ServicesSection'
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
             <SearchBar/>
             <DestinationSection/>
             <ActivityBooking/>
+            <ServicesSection/>
         </div>
     )
 }
