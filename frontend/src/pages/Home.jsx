@@ -5,6 +5,7 @@ import MainSection from '../components/Home/Main_Section/MainSection'
 
 import SearchBar from '../shared/SearchBar'
 import DestinationSection from '../components/Home/Destination_Section/DestinationSection'
+import ActivityBooking from '../components/Home/Activity_Booking/ActivityBooking'
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <MainSection/>
             <SearchBar/>
             <DestinationSection/>
+            <ActivityBooking/>
         </div>
     )
 }
