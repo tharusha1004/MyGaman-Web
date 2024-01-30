@@ -8,17 +8,25 @@ import DestinationSection from '../components/Home/Destination_Section/Destinati
 import ActivityBooking from '../components/Home/Activity_Booking/ActivityBooking'
 import ServicesSection from '../components/Home/Services_Section/ServicesSection'
 import PackagesSection from '../components/Home/Packages_Section/PackagesSection'
+import ReviewSlider from '../components/Home/Review_Slider/ReviewSlider'
 
 const Home = () => {
+    const reviews = [
+        { text: 'Great product! I love it.', author: 'John Doe' },
+        { text: 'Awesome experience with this service.', author: 'Jane Smith' },
+        // Add more reviews as needed
+    ];
+    
     return (
         <div>
             <InfoMessage />
-            <MainSection/>
-            <SearchBar/>
-            <DestinationSection/>
-            <ActivityBooking/>
-            <ServicesSection/>
-            <PackagesSection/>
+            <MainSection />
+            <SearchBar />
+            <DestinationSection />
+            <ActivityBooking />
+            <ServicesSection />
+            <PackagesSection />
+            <ReviewSlider reviews={reviews} />
         </div>
     )
 }
